@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+h3{
+    margin: 10px 0;
+}
+
+h6{
+    margin:5px 0
+}
+
+p{
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.card-container{
+    background-color: #231e29;
+    border-radius: 25px;
+    box-shadow: 10px 10px 15px rgb(0 0 0 / 35%);
+    color: #b3b8cd;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.card-container img{
+    border: 1px solid #1c008c;
+    border-radius: 50%;
+    padding: 7px;
+    height: 150px;
+    width: 150px;
+}
+* {
+    box-sizing: border-box;
+}
+
+div{
+    display: block;
+}
+
+body{
+    background-image: linear-gradient(to right top, #0c0036, #1e0186, #2a03b3, #3304d6, #3b04fd);
+    font-family: 'Lato', sans-serif, Helvetica; /*Se uma não funcionar vai pra adiante */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+button.primary[type="submit"]{
+    background-color: #1c008c;
+    border: 1px solid #1c008c;
+    border-radius: 3px;
+    color: #FAFAFA;
+    font-weight: 500;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif, Helvetica;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+button.primary[type="submit"]:hover{
+    background-color: transparent;
+
+    color: #1c008c;
+}
+
+.skills {
+    background-color: #1f1a36;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.skills ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skills ul li{
+    border: 1px solid #2d2747;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 7px 7px 0;
+    padding: 7px;
+}
